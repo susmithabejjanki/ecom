@@ -19,7 +19,7 @@ db.mongoose.connect(db.url,{
 });
 
 app.get('/', (req, res) => {
-    res.send('Welcome to mkPlatForm!!!...')
+    res.send('Welcome !!!...')
 })
 
 require('./routes/productInventory.routes')(app);
